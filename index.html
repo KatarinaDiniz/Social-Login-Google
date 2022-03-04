@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +23,7 @@
           verifiedEmail.textContent = data.email_verified
           picture.setAttribute("src", data.picture)
         }
-        
+
         window.onload = function () {
           google.accounts.id.initialize({
             client_id: "445146842443-e2u77of0agre735q17vt4nesimj6ea4k.apps.googleusercontent.com",
